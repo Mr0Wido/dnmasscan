@@ -1,6 +1,6 @@
-dnmasscan
+dnmasscan.py
 =========
-dnmasscan is a bash script to automate resolving a file of domain names and subsequentlly scanning them using masscan.
+dnmasscan.py is a python script to automate resolving a file of domain names and subsequentlly scanning them using masscan.
 
 As masscan does not accept domain names, a file is created (specified in the second argument to the script) which will log which IP addresses resolve to which domain names for cross reference after the script has finished executing.
 
